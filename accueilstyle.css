@@ -61,6 +61,11 @@
   width: 600px;
 }
 
+.mind {
+  width: 800px;
+  height: 600px;
+}
+
 #utile
 {
   background-color: white;
@@ -272,6 +277,11 @@ div#page
     margin-right: auto;
     width: 400px;
   }
+  img.responsive-img
+{
+  height: 250px;
+  width: 200px;
+}
 }
 
 @media screen and (max-width: 600px)
@@ -292,5 +302,10 @@ div#page
     margin-left: auto;
     margin-right: auto;
     width: 250px;
+  }
+    img.responsive-img
+  {
+    height: 250px;
+    width: 200px;
   }
 }
